@@ -7,12 +7,13 @@
 body {
     overflow-x: hidden;    
     font-family: 'Montserrat', sans-serif;
-    /*font-family: "Roboto Slab","Helvetica*/ Neue",Helvetica,Arial,sans-serif;
+    /*font-family: "Roboto Slab","Helvetica*/ ",Helvetica,Arial,sans-serif;
 }
 
 .centerBlock {
     padding-top: 0%;
 }
+  
 
 .text-muted {
     color: #777;
@@ -239,9 +240,10 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     
-    .centerBlock {
+.centerBlock {
     padding-top: 35%;
-    }
+}
+  
     
     .navbar-default {
         padding: 25px 0;
@@ -309,6 +311,7 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -356,7 +359,7 @@ section h7.section-heading {
 }
 
 
-@media(min-width:768px) {
+@media(min-width:768px) {  
     section {
         padding: 100px 0;
     }
@@ -630,7 +633,7 @@ section h7.section-heading {
     }
 
     .timeline>li .timeline-image {
-        width: 170px;
+        width: 100px;
         height: 170px;
         margin-left: -85px;
     }
@@ -650,6 +653,7 @@ section h7.section-heading {
 }
 
 .team-member img {
+    
     margin: 0 auto;
     border: 7px solid #fff;
 }
@@ -871,8 +875,4 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: #1ee2e7;
 }
