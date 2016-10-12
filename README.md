@@ -1,3 +1,3 @@
-# AustinsSite
+# Austin's Site
 
-Files for austinwinarski.com
+All necessary files for austinwinarski.com
